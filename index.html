@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentik-Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        
+    <!-- Nom du restaurant à gauche -->
+        <a class="navbar-brand fw-bold" href="#">Authentik-Food</a>
+
+    <!-- Bouton menu responsive (mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <!-- Liens à droite -->
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+     <!-- SECTION HERO -->
+
+
+<section class="hero d-flex align-items-center text-center text-white">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Découvrez le goût authentique</h1>
+        <p class="lead">Une expérience culinaire inoubliable</p>
+        <a href="#menu" class="btn btn-warning btn-lg">Voir le Menu</a>
+    </div>
+</section>
+
+     <!-- SECTION MENU -->
+
+
+<section id="menu" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Notre Menu</h2>
+
+        <!-- Système de grille Bootstrap -->
+        <div class="row">
+
+            <!-- Colonne 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/salade-vegetalienne-avocado_176474-3484.jpg.jpeg" class="card-img-top" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Salade-vegetalienne></h5>
+                        <p class="card-text">une salade accompagnée d'avocat.</p>
+                        <p class="fw-bold">6 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/filet-poisson-garniture-legumes-chutney_127657-9358.jpg.jpeg" class="card-img-top" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">poisson-legume</h5>
+                        <p class="card-text">Préparée avec des ingrédients frais.</p>
+                        <p class="fw-bold">8 500 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/tartare-saumon_1203-9348.jpg.jpeg" class="card-img-top" alt="Plat 3">
+                    <div class="card-body">
+                        <h5 class="card-title">saumon</h5>
+                        <p class="card-text">Mélange somptieux.</p>
+                        <p class="fw-bold">5 000 FCFA</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- SECTION A PROPOS -->
+
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Image -->
+            <div class="col-md-6">
+                <img src="images/plat-poulet-table-restaurant_7939-3126.jpg.jpeg" class="img-fluid rounded" alt="Restaurant">
+            </div>
+
+            <!-- Texte -->
+            <div class="col-md-6">
+                <h2>A propos de nous</h2>
+                <p>
+                    Authentik-Food est un restaurant passionné par la cuisine traditionnelle 
+                    et moderne. Nous utilisons des ingrédients frais pour offrir une 
+                    expérience culinaire unique.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- SECTION CONTACT -->
+<!-- ========================= -->
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <!-- Formulaire Bootstrap -->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nom</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+
+                    <button class="btn btn-dark w-100">Envoyer</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2026 Authentik-Food | Tous droits réservés</p>
+</footer>
+
+<!-- Script Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
